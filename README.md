@@ -71,6 +71,16 @@ node bin/tafqeet.js --words 1234    # ألف ومئتان وأربعة وثلا�
 - **سطر الأوامر**: `bin/tafqeet.js` يعمل بدون تبعيات، ويطبع رسالة استخدام عند الخطأ.
 - **الترتيب**: `toArabicOrdinal` يغطي 1-10 فقط بقصد، لأن ما بعد العشرة يحتاج تركيبًا مختلفًا، والخطأ الصامت أسوأ من حد معلن.
 
+## TypeScript
+
+الحزمة تحمل تعريفات أنواع في `src/index.d.ts`، فلا تحتاج `@types` منفصلة:
+
+```ts
+import { tafqeetEgp, arabicSlug } from 'arabic-text-tools';
+const words: string = tafqeetEgp(1250.5);
+const slug: string = arabicSlug('أسعار الذهب في مصر', { maxLength: 24 });
+```
+
 ## الاختبارات
 
 ```bash

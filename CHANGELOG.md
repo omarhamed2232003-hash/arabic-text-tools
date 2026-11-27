@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.7.0
+
+- Type declarations in `src/index.d.ts`, referenced from `package.json` as
+  `types`, so TypeScript users do not need a separate `@types` package. Every
+  exported function has a signature and the option objects are named types.
+- `test/declarations.test.js` fails if a function is exported without a
+  declaration, or declared without an export. Tests 39/39.
 ## 0.6.1
 
 - `RELEASE_CHECKLIST.md`: what has to happen before the first tag, split into
