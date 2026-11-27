@@ -3,3 +3,5 @@ export { numberToArabicWords, tafqeetEgp } from './tafqeet.js';
 export { toWesternDigits, toArabicIndicDigits } from './numerals.js';
 export { stripTashkeel } from './tashkeel.js';
 export { francoToArabic } from './franco.js';
+export { normalizeArabic, sameArabicWord } from './normalize.js';
+export { formatWithSeparators, parseArabicNumber } from './format.js';
