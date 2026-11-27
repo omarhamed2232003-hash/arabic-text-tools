@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.4
+
+- README: added the "جزء من مجموعة" section (the normalisation rules the
+  question-bank tools follow, implemented in each of them because they carry no
+  dependencies) and corrected the CI line, which still said Node 20 and 22.
+
 ## 0.7.3
 
 - `test/readme-covers-api.test.js`: every exported function must be named in the

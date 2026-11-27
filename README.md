@@ -87,7 +87,11 @@ const slug: string = arabicSlug('أسعار الذهب في مصر', { maxLength
 npm test
 ```
 
-`node:test` بدون أي تبعيات، ويعمل في CI على Node 20 و22.
+`node:test` بدون أي تبعيات، ويعمل في CI على Node 20 و22 و24.
+
+## جزء من مجموعة
+
+قواعد التطبيع هنا (توحيد الألف والهمزة والتاء المربوطة، وتوحيد الفاصلة العشرية العربية، وحذف التشكيل) هي نفسها التي تتبعها أدوات بنك الأسئلة: [thanaweya-mcq-kit](https://github.com/omarhamed2232003-hash/thanaweya-mcq-kit)، [mcq-bank-lint](https://github.com/omarhamed2232003-hash/mcq-bank-lint)، [mcq-bank-diff](https://github.com/omarhamed2232003-hash/mcq-bank-diff)، [mcq-exam-paper](https://github.com/omarhamed2232003-hash/mcq-exam-paper). كل أداة تنفّذها في كودها لأنها بلا تبعيات، فالمشترك هو القاعدة لا الاستيراد.
 
 ## الترخيص
 
