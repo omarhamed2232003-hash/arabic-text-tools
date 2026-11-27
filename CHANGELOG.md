@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.7.3
+
+- `test/readme-covers-api.test.js`: every exported function must be named in the
+  README, so a new helper cannot ship undocumented.
 ## 0.7.2
 
 - `test/docs-links.test.js`: every relative link in the documentation must point
