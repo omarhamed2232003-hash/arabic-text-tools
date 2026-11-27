@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.7.2
+
+- `test/docs-links.test.js`: every relative link in the documentation must point
+  at a file that exists. Tests 40/40.
 ## 0.7.1
 
 - `CONTRIBUTING.md`: how to add a helper (module, export, declaration, tests,
