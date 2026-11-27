@@ -25,5 +25,5 @@
 
 - [ ] The limits in the README and release notes are still true: normalisation is lossy, Franco is approximate, ordinals stop at ten.
 - [ ] The Arabic and English sections say the same thing; this README is Arabic-first with an English summary, and the two must not drift.
-- [ ] 37 tests pass, including the slug truncation boundary and the mixed Arabic/Latin case.
+- [ ] `npm test` passes, including the slug truncation boundary and the mixed Arabic/Latin case. The count in the CI log is the authority; do not write a number here.
 - [ ] No npm publish unless Omar asks. If he does, the package name must be free and the README must match the published name.
