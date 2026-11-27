@@ -1,0 +1,15 @@
+{
+  "name": "arabic-text-tools",
+  "version": "0.1.0",
+  "description": "Zero-dependency Arabic text helpers: number-to-words (tafqeet), Franco-Arabic to Arabic script, Arabic-Indic digit conversion, tashkeel removal.",
+  "type": "module",
+  "license": "MIT",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": ["arabic", "tafqeet", "franco", "numerals", "tashkeel", "rtl", "zero-dependencies"],
+  "engines": { "node": ">=18" }
+}
