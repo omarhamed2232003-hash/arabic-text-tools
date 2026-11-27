@@ -6,3 +6,5 @@ export { francoToArabic } from './franco.js';
 export { normalizeArabic, sameArabicWord } from './normalize.js';
 export { formatWithSeparators, parseArabicNumber } from './format.js';
 export { toArabicOrdinal } from './ordinal.js';
+export { textStats, containsArabic, truncateArabic } from './measure.js';
+export { formatEgp } from './currency.js';

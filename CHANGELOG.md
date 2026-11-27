@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.0
+
+- Add `textStats`, `containsArabic` and `truncateArabic` in `src/measure.js`.
+- Add `formatEgp` in `src/currency.js` for pound amounts with separators and
+  optional Arabic-Indic digits; returns null instead of NaN for bad input.
 ## 0.3.0 — 2026-11-27
 
 - `toArabicOrdinal`: الترتيب بالحروف من الأول إلى العاشر، بصيغتي المذكر والمؤنث، مع رفض ما خارج النطاق بخطأ واضح.

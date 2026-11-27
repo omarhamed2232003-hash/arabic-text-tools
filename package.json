@@ -1,7 +1,7 @@
 {
   "name": "arabic-text-tools",
-  "version": "0.3.0",
-  "description": "Zero-dependency Arabic text helpers: number-to-words (tafqeet), Franco-Arabic to Arabic script, Arabic-Indic digit conversion, tashkeel removal.",
+  "version": "0.4.0",
+  "description": "Zero-dependency Arabic text helpers: number-to-words (tafqeet), Franco-Arabic to Arabic script, Arabic-Indic digit conversion, tashkeel removal, text measurement, EGP formatting.",
   "type": "module",
   "license": "MIT",
   "main": "src/index.js",

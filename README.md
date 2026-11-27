@@ -38,6 +38,10 @@ francoToArabic('3arabi');         // 'عارابي'
 | `normalizeArabic(text)` | نص عربي | نص موحّد للمقارنة (أ/إ/آ ← ا، ى ← ي، ة ← ه، بلا تشكيل) |
 | `sameArabicWord(a, b)` | كلمتان | صحيح/خطأ بعد التوحيد |
 | `formatWithSeparators(n, sep)` | رقم | نص بفواصل الآلاف |
+| `textStats(text)` | نص | عدد الحروف والكلمات والجمل، وهل فيه عربي |
+| `containsArabic(text)` | نص | صحيح لو فيه حرف عربي |
+| `truncateArabic(text, maxChars)` | نص وحد أقصى | نص مقصوص عند حد كلمة مع علامة القطع |
+| `formatEgp(amount, options)` | مبلغ | مبلغ منسّق بالجنيه مع فاصل الآلاف، وأرقام عربية عند الطلب |
 | `parseArabicNumber(text)` | نص بأرقام عربية أو فاصلة عشرية عربية | رقم |
 | `toArabicOrdinal(n, options)` | عدد من 1 إلى 10 | الترتيب بالحروف (الأول… العاشر، ومؤنثه) |
 
