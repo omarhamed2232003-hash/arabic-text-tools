@@ -5,3 +5,4 @@ export { stripTashkeel } from './tashkeel.js';
 export { francoToArabic } from './franco.js';
 export { normalizeArabic, sameArabicWord } from './normalize.js';
 export { formatWithSeparators, parseArabicNumber } from './format.js';
+export { toArabicOrdinal } from './ordinal.js';
