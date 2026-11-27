@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.6.0
+
+- `arabicSlug(text, { maxLength })`: a URL slug that keeps Arabic readable
+  instead of transliterating or percent-encoding it. It folds spelling variants
+  the same way `normalizeArabic` does, drops tashkeel and tatweel, converts
+  Arabic-Indic digits, collapses punctuation to single dashes, and with
+  `maxLength` cuts at a dash boundary rather than mid-word.
+- `stripTatweel(text)`: the tatweel-only helper, useful on its own for display
+  text where the aggressive normalisation would be wrong.
+- Tests: 8 new (37 total), covering folding, punctuation, tatweel, digits,
+  mixed Arabic/Latin, empty input and the truncation boundary.
 ## 0.5.0
 
 - Add `normalizeForSearch` and `matchesArabicQuery` in `src/search.js`: fold

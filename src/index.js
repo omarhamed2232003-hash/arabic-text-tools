@@ -9,3 +9,4 @@ export { toArabicOrdinal } from './ordinal.js';
 export { textStats, containsArabic, truncateArabic } from './measure.js';
 export { formatEgp } from './currency.js';
 export { normalizeForSearch, matchesArabicQuery } from './search.js';
+export { arabicSlug, stripTatweel } from './slug.js';
