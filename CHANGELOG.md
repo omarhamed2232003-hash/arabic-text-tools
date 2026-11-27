@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.0
+
+- Add `normalizeForSearch` and `matchesArabicQuery` in `src/search.js`: fold
+  alef/ya/ta variants, strip tashkeel and tatweel, convert Arabic-Indic digits,
+  and match every query word. An empty query matches nothing on purpose.
 ## 0.4.0
 
 - Add `textStats`, `containsArabic` and `truncateArabic` in `src/measure.js`.

@@ -42,6 +42,8 @@ francoToArabic('3arabi');         // 'عارابي'
 | `containsArabic(text)` | نص | صحيح لو فيه حرف عربي |
 | `truncateArabic(text, maxChars)` | نص وحد أقصى | نص مقصوص عند حد كلمة مع علامة القطع |
 | `formatEgp(amount, options)` | مبلغ | مبلغ منسّق بالجنيه مع فاصل الآلاف، وأرقام عربية عند الطلب |
+| `normalizeForSearch(text)` | نص | نص موحّد للبحث (أ/إ/آ ← ا، ة ← ه، ى ← ي، أرقام غربية، بلا تشكيل ولا علامات) |
+| `matchesArabicQuery(text, query)` | نص واستعلام | صحيح لو كل كلمات الاستعلام موجودة بعد التوحيد |
 | `parseArabicNumber(text)` | نص بأرقام عربية أو فاصلة عشرية عربية | رقم |
 | `toArabicOrdinal(n, options)` | عدد من 1 إلى 10 | الترتيب بالحروف (الأول… العاشر، ومؤنثه) |
 
