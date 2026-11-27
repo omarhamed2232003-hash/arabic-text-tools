@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.1
+
+- `CONTRIBUTING.md`: how to add a helper (module, export, declaration, tests,
+  README limits in the same commit) and what will not be accepted.
+- CI matrix now runs Node 20, 22 and 24.
 ## 0.7.0
 
 - Type declarations in `src/index.d.ts`, referenced from `package.json` as
