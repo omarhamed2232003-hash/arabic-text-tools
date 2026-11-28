@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.7
+
+- README completed for a reviewer who has never seen the repository: a link to
+  CONTRIBUTING.md with the one rule that matters for that project, and, in the
+  kit, an explicit "what it does not do" section (it does not prove the content
+  is right, it ships no server-side key, it does not fix mixed-direction text, and
+  a subject teacher's signature is a separate step nobody has done yet).
+
 ## 0.7.6
 
 - `STATUS.md`: a short page saying where the repository actually stands — what

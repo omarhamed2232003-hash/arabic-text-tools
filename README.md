@@ -95,6 +95,10 @@ npm test
 
 قواعد التطبيع هنا (توحيد الألف والهمزة والتاء المربوطة، وتوحيد الفاصلة العشرية العربية، وحذف التشكيل) هي نفسها التي تتبعها أدوات بنك الأسئلة: [thanaweya-mcq-kit](https://github.com/omarhamed2232003-hash/thanaweya-mcq-kit)، [mcq-bank-lint](https://github.com/omarhamed2232003-hash/mcq-bank-lint)، [mcq-bank-diff](https://github.com/omarhamed2232003-hash/mcq-bank-diff)، [mcq-exam-paper](https://github.com/omarhamed2232003-hash/mcq-exam-paper). كل أداة تنفّذها في كودها لأنها بلا تبعيات، فالمشترك هو القاعدة لا الاستيراد.
 
+## المساهمة
+
+[CONTRIBUTING.md](CONTRIBUTING.md): أي دالة جديدة تحتاج اختبارًا يثبت سلوكها عند الحدود (الهمزة، التاء المربوطة، التشكيل، الأرقام العربية، الفاصلة العشرية)، وإعلان TypeScript محدَّثًا، وسطرًا في `CHANGELOG.md`.
+
 ## الترخيص
 
 MIT. الكود مكتوب لهذا المستودع. لا يحتوي المشروع أي بيانات شخصية أو مفاتيح أو محتوى منقول.
