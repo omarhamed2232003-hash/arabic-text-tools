@@ -1,5 +1,7 @@
 # arabic-text-tools
 
+**الحالة الحالية:** [STATUS.md](STATUS.md) — ما تم التحقق منه، ومن راجعه، وما لم يُتحقق منه بعد.
+
 أدوات نص عربي صغيرة، بدون أي تبعيات: تفقيط الأرقام إلى كلمات عربية، وتحويل الأرقام إلى مبالغ بالجنيه المصري، وتحويل الأرقام العربية الهندية إلى أرقام غربية والعكس، وإزالة التشكيل، وتحويل الكتابة الفرانكو إلى حروف عربية.
 
 Zero-dependency helpers for Arabic text: number-to-words (tafqeet), EGP amount wording, Arabic-Indic digit conversion, tashkeel removal, and Franco-Arabic to Arabic script.
